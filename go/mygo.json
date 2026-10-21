@@ -1,0 +1,8 @@
+{
+  "name": "ADB Explorer",
+  "identifier": "io.github.adbexplorer.native",
+  "version": "0.1.0",
+  "main": "./cmd/adbexplorer",
+  "icon": "cmd/adbexplorer/appicon.png",
+  "out": "build"
+}

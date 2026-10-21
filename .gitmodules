@@ -1,0 +1,3 @@
+[submodule "third/mygo"]
+	path = third/mygo
+	url = https://github.com/egoist/mygo.git

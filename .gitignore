@@ -374,3 +374,6 @@ ADB Explorer/FaroCollector.url
 scripts/.grafana-token
 crashes/
 /CLAUDE.md
+
+# Built installers and app binaries
+/target/

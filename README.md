@@ -19,17 +19,15 @@
   		<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Alex4SSB/ADB-Explorer?label=Last%20commit"></a>
 </p>
 
-An interface to ADB that allows browsing, transferring, and editing of files with ease, in a modern and fluent Windows app, built in WPF.
+An interface to ADB that allows browsing, transferring, and editing of files. The client in this repository is the native Go app under [`go/`](go/).
+
+From `go/`:
+
+```
+go run ./cmd/adbexplorer
+```
 
 
-
-<a href="https://www.microsoft.com/store/apps/9PPGN2WM50QB">
-      <img alt="Issues" width=300px src="https://get.microsoft.com/images/en-us%20light.svg" />
-</a>
-
-<h2 align="left"/>ADB Platform-Tools</h2>
-
-For a comprehensive list of all official ADB platform-tools versions from Google with download URLs and checksums, see [OFFICIAL_ADB_VERSIONS.md](OFFICIAL_ADB_VERSIONS.md).
 
 <h2 align="left"/>Security</h2>
 
@@ -41,11 +39,7 @@ Help with translation is most welcome - please visit our translation project on 
 <br></br>
 <h2 align="left"/>App Files</h2>
 
-`%LocalAppData%\AdbExplorer` (portable installs)
-
-The Microsoft Store version uses a package-private folder by default. You can keep using that location or choose a custom folder that remains on your PC after uninstall.
-
-* settings.json - persistent settings file.
+The Go client stores `settings.json` in its app data folder.
 
 The settings file contains user app settings as well as other settings not directly accessible.
 The file can be edited, but the format must be preserved.
