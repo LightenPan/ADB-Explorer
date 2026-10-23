@@ -1,0 +1,12 @@
+{
+  "name": "SwitchHosts",
+  "identifier": "net.oldj.switchhosts",
+  "version": "5.0.3",
+  "copyright": "Copyright (c) oldj",
+  "icon": "assets/icon-1024.png",
+  "out": "build",
+  "resources": [],
+  "linux": {
+    "maintainer": "oldj <oldj@oldj.net>"
+  }
+}

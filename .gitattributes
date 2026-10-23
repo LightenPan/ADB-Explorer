@@ -1,4 +1,8 @@
-legacy/* linguist-vendored
-scripts/alfred/workflow/* linguist-vendored
+# Go sources
+*.go text eol=lf
+*.mod text eol=lf
+*.sum text eol=lf
 
-*.css linguist-language=javascript
+# Images and icons stay binary
+*.png binary
+*.ico binary
